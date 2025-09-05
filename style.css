@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'LitfibaFont';
+    src: url('assets/GothamLight.ttf') format('truetype');
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'LitfibaFont', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.song-card {
+    background: #9E0101;
+    padding: 15px;
+    width: 85%;
+    max-width: 400px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 0px rgba(255, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.song-card h3 {
+    margin: 0;
+    color: white;
+}
+
+.song-card:hover {
+    background: #9a2d2d;
+}
+
+.container {
+    padding: 20px;
+}
+
+.video-container {
+    margin: 20px auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: #3a0d0d;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+    background: #800001;
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.back-button:hover {
+    background: #9a2d2d;
+}
+.song-container {
+    background: #800001;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 0px rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+
+.song-container h2 {
+    margin-bottom: 15px;
+    color: white;
+}
